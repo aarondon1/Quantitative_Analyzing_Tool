@@ -3,6 +3,7 @@ import os
 import PyPDF2
 import docx
 import openai
+import pdfkit
 from dotenv import load_dotenv
 
 load_dotenv()

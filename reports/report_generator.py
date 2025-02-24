@@ -3,6 +3,9 @@ import pdfkit
 from jinja2 import Template
 import os
 
+# Path to wkhtmltopdf on Windows
+config = pdfkit.configuration(wkhtmltopdf='C:/Program Files/wkhtmltopdf/bin/wkhtmltopdf.exe')
+
 def generate_report(llm_summary, dcf_data, consolidation_data, budget_data, forecast_data, risk_analysis):
     """
     Combine data into an HTML template, then convert to PDF via pdfkit.
