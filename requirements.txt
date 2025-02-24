@@ -1,0 +1,16 @@
+streamlit
+pandas
+numpy
+matplotlib
+pdfkit
+jinja2
+PyPDF2
+python-docx
+openai
+yfinance
+requests
+# For reading environment variables:
+python-dotenv
+
+# If on Windows or Mac, install wkhtmltopdf from:
+#   https://wkhtmltopdf.org/downloads.html
